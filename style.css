@@ -115,3 +115,16 @@ button {
 button:disabled {
   background-color: #7fb4e6;
 }
+
+
+.progress-ring {
+  transform: rotate(-90deg); /* começa do topo */
+}
+
+.progress-ring__circle {
+  fill: none;
+  stroke: #1f9bf0;
+  stroke-width: 3;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.3s ease;
+}
